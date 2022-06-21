@@ -68,15 +68,51 @@
                 </div>
 
                 <div class="col-md-4">
-                    <h1>Títulos</h1>
+                    <h1>Títulos Simples</h1>
                     <hr>
-                    <h1 class="t-center">Titulo 01</h1><br>
-                    <h2 class="t-left">Título 02</h2><br>
-                    <h3 class="t-bar">Título 03</h3><br>
-                    <h4 class="">Título 04</h4><br>
-                    <h5 class="">Título 04</h5><br>
-                    <h6 class="">Título 06</h6><br>
+                    <h1>Titulo 01</h1><br>
+                    <h2>Título 02</h2><br>
+                    <h3>Título 03</h3><br>
+                    <h4>Título 04</h4><br>
+                    <h5>Título 04</h5><br>
+                    <h6>Título 06</h6><br>
                 </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>
+                        Classes de títulos
+                    </h1>
+                    <hr>
+                </div>
+
+
+
+                <div class="col-12">
+                    <h2 class="after-center-primary tt-border-bottom">
+                        Centro azul com border-bottom
+                    </h2>
+                </div>
+
+                <div class="col-12">
+                    <h2 class="after-left-primary tt-border-bottom">
+                        Esqurda azul com border-bottom
+                    </h2>
+                </div>
+
+                <div class="col-12 bg-info">
+                    <h2 class="text-light after-left-light">
+                        Esquerda branco
+                    </h2>
+                </div>
+
+
+
             </div>
         </div>
     </section>

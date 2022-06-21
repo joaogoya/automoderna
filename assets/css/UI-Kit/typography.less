@@ -27,42 +27,48 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 600;
 }
 
-.t-after{
-    &:after{
-        content:'';
-        display: block;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 25px;
-    }
+.after-center-primary{
+  text-align: center;
+  &:after{
+    content:'';
+    display: block;
+    .bg-primary;
+    width: 75px;
+    height: 5px;
+    margin: 6px auto -3px auto;
+  }
 }
 
-.t-center{
-    text-align: center;
-    .t-after;
-    &:after{
-        background-image: url('./../../../site_dama/assets/img/tt-center-icon.png');
-        background-position: center;
-    }
+.after-left-primary{
+  &:after{
+    content:'';
+    display: block;
+    .bg-primary;
+    width: 75px;
+    height: 5px;
+    margin: 6px 0 -3px 0;
+  }
 }
 
-.t-left{
-    text-align: left;
-    .t-after;
-    &:after{
-        background-image: url('./../../../site_dama/assets/img/tt-left-icon.png');
-        background-position: left center;
-    }
+.after-left-light{
+  &:after{
+    content:'';
+    display: block;
+    .bg-light;
+    width: 75px;
+    height: 5px;
+    margin: 6px 0 -3px 0;
+  }
 }
 
-.t-bar{
-    text-align: center;
-    .t-after;
-    &:after{
-        background-image: url('./../../../site_dama/assets/img/tt-bar-icon.png');
-        background-position: center;
-    }
+.tt-border-bottom{
+  border-bottom: 1px solid @gray;
+  margin-bottom: 15px;
 }
+
+
+
+
 
 blockquote{
     background: @secondary;
