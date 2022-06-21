@@ -6,9 +6,9 @@
                     <h1>Tipos de fontes</h1>
                     <hr>
                 </div>
-                <div class="col-md-6">
-                    <h2 class="playfair">Playfair</h2>
-                    <p class="playfair">
+                <div class="col-md-12">
+                    <h2 class="lato">Lato</h2>
+                    <p class="lato">
                         Nullam et facilisis sem. Etiam sapien velit,
                         pellentesque vitae libero non, ultrices tempor lorem.
                         <b>Suspendisse ac sagittis nibh. Donec tellus risus, lacinia eget leo eu,
@@ -20,10 +20,21 @@
                         Pellentesque eget fringilla metus. Nunc ultricies est ex, non gravida leo
                         fringilla sit amet.
                     </p>
-                </div>
-                <div class="col-md-6">
-                    <h2 class="poppins">Poppins</h2>
-                    <p class="poppins">
+
+                    <p class="lato">
+                        Nullam et facilisis sem. Etiam sapien velit,
+                        pellentesque vitae libero non, ultrices tempor lorem.
+                        <b>Suspendisse ac sagittis nibh. Donec tellus risus, lacinia eget leo eu,
+                            blandit faucibus dolor. Donec aliquam gravida mi nec eleifend.</b> Aenean porta
+                        euismod ante vel sagittis. Maecenas risus urna, molestie pretium urna id,
+                        faucibus eleifend risus. Fusce pretium nec mi in egestas.
+                        <i> Morbi elementum hendrerit orci, sit amet faucibus nibh.</i> Nulla accumsan cursus tempus.
+                        Duis eget sapien suscipit, ullamcorper dui ac, eleifend tellus. Nulla id mi nisi.
+                        Pellentesque eget fringilla metus. Nunc ultricies est ex, non gravida leo
+                        fringilla sit amet.
+                    </p>
+
+                    <p class="lato">
                         Nullam et facilisis sem. Etiam sapien velit,
                         pellentesque vitae libero non, ultrices tempor lorem.
                         <b>Suspendisse ac sagittis nibh. Donec tellus risus, lacinia eget leo eu,
