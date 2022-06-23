@@ -90,9 +90,6 @@
                     </h1>
                     <hr>
                 </div>
-
-
-
                 <div class="col-12">
                     <h2 class="after-center-primary tt-border-bottom">
                         Centro azul com border-bottom
@@ -110,9 +107,22 @@
                         Esquerda branco
                     </h2>
                 </div>
+            </div>
+        </div>
+    </section>
 
-
-
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>
+                        The Content
+                    </h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-12">
+                <?php the_content(); ?>
             </div>
         </div>
     </section>
@@ -138,6 +148,7 @@
                     <p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
                     <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
                     <p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+
                 </div>
             </div>
 
